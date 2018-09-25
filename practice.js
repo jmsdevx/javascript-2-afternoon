@@ -180,7 +180,9 @@ methodCollection.logHello()
 
 //Code Here
 function makePerson(name, birthday, ssn) {
-  return {"name": name, "birthday": birthday, "ssn": ssn}
+  let person = {"name": name, "birthday": birthday, "ssn": ssn}
+  return person
+
 }
 
 
@@ -194,7 +196,8 @@ function makePerson(name, birthday, ssn) {
 
 //Code Here
 function makeCard(cardNumber, expirationDate, securityCode) {
-  return {"cardNumber": cardNumber, "expirationDate": expirationDate, "securityCode": securityCode}
+  let card = {"cardNumber": cardNumber, "expirationDate": expirationDate, "securityCode": securityCode}
+  return card
 }
 
 
